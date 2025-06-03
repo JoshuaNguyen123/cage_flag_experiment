@@ -35,10 +35,7 @@ cage_flag_experiment/
 
 ---
 
-## ✅ Getting Started
+## 🚀 Live Demo
 
-```bash
-# Set up environment
-python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
-pip install -r requirements.txt
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
+
