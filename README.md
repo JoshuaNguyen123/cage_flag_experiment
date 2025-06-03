@@ -37,5 +37,5 @@ cage_flag_experiment/
 
 ## 🚀 Live Demo
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cageflagexperiment-jzvfysubyubkjryljvbr8d.streamlit.app/)
 
