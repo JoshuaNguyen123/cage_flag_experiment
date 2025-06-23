@@ -10,7 +10,7 @@ df["is_flagged"] = df["is_flagged"].map({0: "Unflagged", 1: "Flagged"})
 
 # Page config
 st.set_page_config(page_title="Cage Flag Optimization", layout="centered")
-st.title("📦 Cage Flag Optimization Dashboard")
+st.title("Cage Flag Optimization Dashboard")
 
 # Section 1: Summary
 st.header("Summary Statistics")
@@ -35,6 +35,6 @@ t_stat, p_val = ttest_ind(flagged, unflagged, equal_var=False)
 st.write(f"**T-statistic:** {t_stat:.2f}")
 st.write(f"**P-value:** {p_val:.4f}")
 if p_val < 0.05:
-    st.success("✅ Statistically significant difference in dwell time.")
+    st.success("Statistically significant difference in dwell time.")
 else:
-    st.warning("ℹ️ No statistically significant difference found.")
+    st.warning("No statistically significant difference found.")
