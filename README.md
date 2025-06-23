@@ -1,6 +1,6 @@
 # Cage Flag Optimization Experiment
 
-## 📖 Project Description
+## Project Description
 
 This project evaluates whether flagging cages in a fulfillment center improves operational efficiency. Specifically, it compares **mean stowing times** between two groups:
 
@@ -11,7 +11,7 @@ We use experimental design principles to determine if flagging provides a statis
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
 - **Design**: A/B testing setup
 - **Metric**: Mean Processing time
@@ -20,7 +20,7 @@ We use experimental design principles to determine if flagging provides a statis
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 cage_flag_experiment/
 ├── data/ # Raw and processed data
@@ -35,7 +35,7 @@ cage_flag_experiment/
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cageflagexperiment-jzvfysubyubkjryljvbr8d.streamlit.app/)
 
