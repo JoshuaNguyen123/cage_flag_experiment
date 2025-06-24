@@ -36,4 +36,4 @@ df["dwell_time_minutes"] = df["dwell_time_minutes"].clip(lower=0)
 output_path = os.path.join(RAW_DATA_PATH, "fake_cage_data.csv")
 df.to_csv(output_path, index=False)
 
-print(f"✅ Fake data generated and saved to: {output_path}")
+print(f"Fake data generated and saved to: {output_path}")

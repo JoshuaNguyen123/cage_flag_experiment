@@ -1,4 +1,4 @@
-# 🧪 Cage Flag Optimization Experiment Report
+# Cage Flag Optimization Experiment Report
 
 ## 1. Objective
 
@@ -63,11 +63,11 @@ This experiment provides **strong statistical evidence** that flagging cages red
 
 ## 7. Recommendations & Next Steps
 
-✅ **Operational Recommendations**
+ **Operational Recommendations**
 - Consider expanding cage flagging procedures across all inbound lines.
 - Prioritize flagged cages during stow when under peak volume pressure.
 
-📈 **Future Work**
+ **Future Work**
 - Apply same analysis to real production data.
 - Measure downstream effects (e.g., stowing time, productivity per associate).
 - Incorporate flag logic into warehouse management systems or dashboards.
