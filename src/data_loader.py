@@ -12,7 +12,7 @@ def load_raw_data(filename):
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"File not found: {file_path}")
     
-    print(f"🔄 Loading data from {file_path}")
+    print(f"Loading data from {file_path}")
     return pd.read_csv(file_path)
 
 
@@ -41,4 +41,4 @@ def save_cleaned_data(df, output_filename="cleaned_data.csv"):
     os.makedirs(PROCESSED_DATA_PATH, exist_ok=True)
     output_path = os.path.join(PROCESSED_DATA_PATH, output_filename)
     df.to_csv(output_path, index=False)
-    print(f"✅ Cleaned data saved to {output_path}")
+    print(f"Cleaned data saved to {output_path}")
